@@ -1,8 +1,8 @@
 {
   "name": "vite-lite-starter",
-  "private": true,
-  "version": "0.0.0",
   "type": "module",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
@@ -12,7 +12,9 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@antfu/eslint-config": "^0.26.1",
     "@vitejs/plugin-vue": "^3.0.3",
+    "eslint": "^8.21.0",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
     "vue-tsc": "^0.39.5"
