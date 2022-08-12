@@ -13,9 +13,12 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.26.1",
+    "@iconify-json/carbon": "^1.1.7",
+    "@unocss/reset": "^0.45.6",
     "@vitejs/plugin-vue": "^3.0.3",
     "eslint": "^8.21.0",
     "typescript": "^4.6.4",
+    "unocss": "^0.45.6",
     "vite": "^3.0.7",
     "vue-tsc": "^0.39.5"
   }
