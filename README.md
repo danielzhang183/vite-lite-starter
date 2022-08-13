@@ -2,11 +2,12 @@
 
 - [x] pnpm
 - [x] Typescript
-- [x] Eslint
+- [x] ESlint
 - [x] Vite
 - [x] Vue3
 - [x] Vue Router
 - [x] Unocss
+- [x] iconify
 
 - [x] vite-plugin-pages auto generate routes
 - [x] unplugin-auto-import auto import apis
