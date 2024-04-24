@@ -5,7 +5,7 @@ import { useRouter } from 'vue-router'
 const name = ref('')
 
 const router = useRouter()
-const go = () => {
+function go() {
   if (name.value)
     router.push(`/hi/${encodeURIComponent(name.value)}`)
 }
@@ -13,7 +13,7 @@ const go = () => {
 
 <template>
   <div>
-    <div i-carbon-campsite text-4xl inline-block />
+    <div i-carbon-campsite inline-block text-4xl />
     <p>
       <a rel="noreferrer" href="https://github.com/danielzhang183/vite-lite-starter" target="_blank">
         Vite Lite Starter

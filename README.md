@@ -30,8 +30,8 @@ II. Start up project
 pnpm dev
 ```
 
-III. update deps
+III. Use as template
 
 ```bash
-pnpm up
+degit danielzhang183/vite-starter your-project-name
 ```

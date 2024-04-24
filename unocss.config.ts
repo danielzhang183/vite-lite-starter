@@ -4,8 +4,8 @@ import {
   presetIcons,
   presetUno,
   presetWebFonts,
-  // transformerDirectives,
-  // transformerVariantGroup,
+  transformerDirectives,
+  transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
@@ -21,6 +21,7 @@ export default defineConfig({
       warn: true,
     }),
     presetWebFonts({
+      provider: 'bunny',
       fonts: {
         sans: 'DM Sans',
         serif: 'DM Serif Display',
@@ -28,8 +29,8 @@ export default defineConfig({
       },
     }),
   ],
-  // transformers: [
-  //   transformerDirectives(),
-  //   transformerVariantGroup(),
-  // ],
+  transformers: [
+    transformerDirectives(),
+    transformerVariantGroup(),
+  ],
 })
